@@ -24,14 +24,14 @@
 		"fieldName"			"Crosshair"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"0"			//Play around with x and y until it's centered
-		"ypos"				"3"			//Not all crosshairs/resolutions have the same placement
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"f0"
+		"xpos"				"c-100"			//Play around with x and y until it's centered
+		"ypos"				"c-96"			//Not all crosshairs/resolutions have the same placement
+		"zpos"				"2"
+		"wide"				"200"
+		"tall"				"200"
 		"font"				"Crosshair"
 		"labelText"			"8"			//Refer to crosshairs.png for crosshairs
-		"fgcolor"			"ZHUD_White" // rgbcolor value
+		"fgcolor"			"ZHUD_Buffed" // rgbcolor value
 		"textAlignment"		"center"
 	}
 	CrossHairKonrWings // Konr Wings //
@@ -1470,5 +1470,29 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+	
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"150"
 	}
 }
